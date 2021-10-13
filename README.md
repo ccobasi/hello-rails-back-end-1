@@ -1,16 +1,11 @@
-# Hello-Rails-React
+# Hello-Rails-Back-End
 
-> How to setup RoR + React project as one app using the react-rails gem
+> How to setup a Ruby on Rails API-only back-end
 
 Project Description:
 In this project, I have:
-Set up the project with webpacker react-rails gems.
 Set up Postgres database.
 Created an API endpoint that selects a random greeting from greetings table via v1/greetings.
-Created a static view that will be the root of the appp.
-Created the App component with react-router and render it in the static view.
-Created the Greeting component that will display a greeting.
-Created a store, an action and a reducer that connects API endpoint to get the random greeting.
 
 Note: Random greeting is Display on refresh
 
@@ -27,10 +22,10 @@ Note: Random greeting is Display on refresh
 To get a local copy up and running follow these simple steps.
 
 - To get a local copy of this project, run
-`git clone https://github.com/francisuloko/hello-rails-react.git`
+`git clone https://github.com/francisuloko/hello-rails-back-end.git`
 
 - Change into the project directory, run
-`cd hello-rails-react`
+`cd hello-rails-back-end`
 
 ### Prerequisites
 
@@ -80,7 +75,13 @@ Start server with:
 Open `http://localhost:3000/` in your browser.
 
 ### API ENDPOINT
-- Get random greeting: v1/greetings
+
+- Get random greeting:
+```
+
+  https://fierce-citadel-70579.herokuapp.com/greetings
+
+```
 
 ## Authors
 
