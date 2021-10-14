@@ -9,6 +9,9 @@ Created an API endpoint that selects a random greeting from greetings table via 
 
 Note: Random greeting is Display on refresh
 
+## REACT FRONT-END
+Check Out The Random Greeting React Front-End [Here](https://deploy-preview-1--elated-poitras-b362bb.netlify.app/)
+
 ## Built With
 
 - Ruby v2.7.0
